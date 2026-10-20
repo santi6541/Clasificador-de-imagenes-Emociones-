@@ -1,0 +1,21 @@
+# Carpetas temporales y entornos de Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Archivos comprimidos pesados
+*.zip
+*.rar
+*.tar.gz
+
+# CARPETAS DE DATASETS (Contienen miles de imágenes pesadas)
+CK+48/
+Face expression recognition dataset/
+Facial Emotion Recognition Image Dataset/
+fer2013_data/
+unified_data/
+
+# CARPETA DE MODELOS (Suelen pesar más de 100MB si guardas archivos .h5, .pkl, .pt)
+modelo/
